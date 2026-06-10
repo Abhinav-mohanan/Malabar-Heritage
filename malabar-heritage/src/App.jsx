@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <h1>malabar-heritage</h1>
+    <h1 className='text-red-800'>malabar-heritage</h1>
     </>
   )
 }
