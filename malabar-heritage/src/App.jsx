@@ -1,14 +1,23 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import TrustBadges from './components/TrustBadges'
+import Footer from './components/Footer'
+import HeritageBanner from './components/HeritageBanner'
+import ProductsSection from './components/ProductsSection'
 
 
 function App() {
 
   return (
 
-    <div>
+    <div className='min-h-screen'>
       <Navbar/>
-      <h1 className='text-red-800'>malabar-heritage</h1>
+      <Hero/>
+      <TrustBadges/>
+      <ProductsSection/>
+      <HeritageBanner/>
+      <Footer/>
     </div>
     
 
