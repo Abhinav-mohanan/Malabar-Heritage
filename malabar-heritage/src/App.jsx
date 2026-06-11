@@ -1,16 +1,17 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import TrustBadges from './components/TrustBadges'
 
 
 function App() {
 
   return (
 
-    <div>
+    <div className='min-h-screen'>
       <Navbar/>
       <Hero/>
-      <h1 className='text-red-800'>malabar-heritage</h1>
+      <TrustBadges/>
     </div>
     
 
