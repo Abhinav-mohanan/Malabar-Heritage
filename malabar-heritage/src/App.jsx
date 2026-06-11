@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TrustBadges from './components/TrustBadges'
 import Footer from './components/Footer'
+import HeritageBanner from './components/HeritageBanner'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <TrustBadges/>
+      <HeritageBanner/>
       <Footer/>
     </div>
     
